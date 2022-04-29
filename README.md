@@ -11,3 +11,11 @@ Additionally, the stablecoins do not vary proportionally so it is not clear whic
 This tool aims to periodically collect data to determine an average APY for each stablecoin and provide more insight into the better investment option.
 
 Intended to be run on an hourly cron job.
+
+## Docker
+
+`INFLUX_HOST` will be read from the environment. It will default to `localhost`.
+
+```
+docker run -e INFLUX_HOST="localhost" --rm jaketreacher/protonloanscraper
+```
