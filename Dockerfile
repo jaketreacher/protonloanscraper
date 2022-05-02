@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:16-slim
 
 # Copied Chrome installation from here:  https://github.com/buildkite/docker-puppeteer/blob/master/Dockerfile
 RUN apt-get update \
